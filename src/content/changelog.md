@@ -21,7 +21,7 @@
   - `cellphone-iphone` (use `cellphone`)
   - `concourse-ci`
   - `currency-usd-circle`
-  - `currency-usd`
+  - `currency-usd-circle-outline`
   - `do-not-disturb-off` (use `minus-circle-off`)
   - `do-not-disturb` (use `minus-circle`)
   - `douban`
