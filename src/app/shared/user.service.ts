@@ -54,7 +54,22 @@ export class UserService {
           'packageId': packageId
         }
       })
-      .map(users => users.map(i => new User().from(i)))
+      .map(users => {
+        const userMap = users
+          .map(i => new User().from(i))
+          .sort((a, b) => {
+            const githubA = a.github.toUpperCase();
+            const githubB = b.github.toUpperCase();
+            if (githubA < githubB) {
+              return -1;
+            }
+            if (githubA > githubB) {
+              return 1;
+            }
+            return 0;
+          });
+        return userMap;
+      })
       .toPromise();
   }
 
