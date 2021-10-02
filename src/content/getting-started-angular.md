@@ -30,7 +30,7 @@ import { mdiAccount } from '@mdi/js';
   selector: 'app',
   template: `
   <div>
-    <icon path="mdiAccount"></icon>
+    <icon [path]="mdiAccount"></icon>
   </div>
   `
 })
