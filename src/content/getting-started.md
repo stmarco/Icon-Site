@@ -4,16 +4,16 @@
 
 ## Using the Webfont
 
-One of the easiest ways to access all of our icons is to use the webfont. For testing or quick use you can include the CSS file from the CDN. You could also download the files via NPM to include in your project.
+One of the easiest ways to use the icons is through the webfont. There is also a hosted CDN option for quick use in demos or development.
 
-<a href="/getting-started/webfont" class="button">Learn More (Webfont - Getting Started)</a>
+<a href="/getting-started/webfont" class="button">icon:language-html5 Learn More (Webfont - Getting Started)</a>
 
 > **Danger:** Using the webfont while easy to use is highly discouraged due to performance and overall request size. Please read the [Webfont Alternatives Guide](/guide/webfont-alternatives) for more details.
 
 
 ## Using SVGs
 
-All of our icons are available as an SVG.
+All icons are designed in vector and provided in SVG format.
 <!-- TODO : Explain how to download them -->
 
 ### As an Image File
@@ -42,3 +42,9 @@ Inline SVGs can also be overlayed by adding additional paths.
   <path fill="#990000" d="M ... Z" /> <!-- block-helper -->
 </svg>
 ```
+
+<a href="/getting-started/svg" class="button">icon:svg Learn More (SVG - Getting Started)</a>
+
+## Frameworks
+
+- <a href="/getting-started/react" class="button">icon:react React - Getting Started</a>

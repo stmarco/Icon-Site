@@ -1,5 +1,17 @@
 # Changelog
 
+## Version 6.2.95
+
+- 100 New Icons
+- Updated
+  - `account-arrow-left-outline`
+  - `account-arrow-left`
+  - `account-arrow-right-outline`
+  - `account-arrow-right`
+  - `airplane-off`
+  - `application-import`
+  - `application-export`
+
 ## Version 6.1.95
 
 - 281 New Icons

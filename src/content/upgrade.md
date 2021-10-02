@@ -2,6 +2,10 @@
 
 Follow the guide starting with your version to the version you wish to upgrade to.
 
+## 6.1.95 to 6.2.95
+
+- 100 New Icons
+
 ## 5.9.55 to 6.1.95
 
 - Major `6.x` Upgrade

@@ -101,7 +101,7 @@ const appRoutes: Routes = [
     data: {
       file: 'content/getting-started-bootstrap.md',
       stylesheets: [
-        '//cdn.jsdelivr.net/npm/@mdi/font@6.1.95/css/materialdesignicons.min.css',
+        '//cdn.jsdelivr.net/npm/@mdi/font@6.2.95/css/materialdesignicons.min.css',
         '/assets/docs/bootstrap/helper.css'
       ]
     }
